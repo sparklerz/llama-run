@@ -4,14 +4,14 @@ import pytest
 import torch
 import transformers
 
-from petals import (
+from llama-run import (
     AutoDistributedConfig,
     AutoDistributedSpeculativeModel,
     DistributedLlamaForSpeculativeGeneration,
     RemoteSequential,
 )
-from petals.server.block_functions import MAX_SHORT_INFERENCE_TOKENS
-from petals.server.from_pretrained import load_pretrained_block
+from llama-run.server.block_functions import MAX_SHORT_INFERENCE_TOKENS
+from llama-run.server.from_pretrained import load_pretrained_block
 from test_utils import *
 
 

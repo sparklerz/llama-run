@@ -4,8 +4,8 @@ import hivemind
 import pytest
 import torch
 
-from petals import AutoDistributedConfig, RemoteSequential
-from petals.server.handler import CACHE_TOKENS_AVAILABLE
+from llama-run import AutoDistributedConfig, RemoteSequential
+from llama-run.server.handler import CACHE_TOKENS_AVAILABLE
 from test_utils import *
 
 

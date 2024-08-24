@@ -9,8 +9,8 @@ import pytest_asyncio  # make sure the module exists; otherwise the test will be
 import torch
 from hivemind import TensorDescriptor
 
-from petals.server.memory_cache import AllocationFailed, MemoryCache
-from petals.utils.misc import get_size_in_bytes
+from llama-run.server.memory_cache import AllocationFailed, MemoryCache
+from llama-run.utils.misc import get_size_in_bytes
 
 
 def _make_tensor_descriptor(num_bytes: int, dtype: Optional[torch.dtype] = None):

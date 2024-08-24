@@ -7,10 +7,10 @@
 import pytest
 import torch
 
-from petals import AutoDistributedConfig
-from petals.client.remote_sequential import RemoteSequential
-from petals.server.from_pretrained import load_pretrained_block
-from petals.utils.misc import DUMMY_KEY_PAST
+from llama-run import AutoDistributedConfig
+from llama-run.client.remote_sequential import RemoteSequential
+from llama-run.server.from_pretrained import load_pretrained_block
+from llama-run.utils.misc import DUMMY_KEY_PAST
 from test_utils import *
 
 
